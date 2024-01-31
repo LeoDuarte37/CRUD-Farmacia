@@ -26,6 +26,7 @@ public class Categoria {
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "categoria", cascade = CascadeType.REMOVE)
 	private List<Produto> produto;
 
+	// Getters and Setters
 	public Long getId() {
 		return Id;
 	}

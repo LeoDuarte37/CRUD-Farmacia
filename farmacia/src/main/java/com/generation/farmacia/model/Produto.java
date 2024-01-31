@@ -38,6 +38,7 @@ public class Produto {
 	@Builder.Default 
 	private boolean disponivel = true;
 
+	// Getters and Setters
 	public Long getId() {
 		return id;
 	}
