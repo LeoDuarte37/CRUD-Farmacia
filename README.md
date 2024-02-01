@@ -3,4 +3,4 @@ Projeto Spring para atividade avaliativa do bootcamp Java Web Fullstack - Sistem
 
 Por enquanto está parecido com a loja de games, com diferença em alguns métodos de consulta no protocólo HTTP GET.
 
-##Estou desenvolvendo na branch "SacolaCliente", funcionalidades para um cliente fechar, ver ou adicionar item em uma sacola.
+## Estou desenvolvendo na branch "SacolaCliente", funcionalidades para um cliente fechar, ver ou adicionar item em uma sacola.
