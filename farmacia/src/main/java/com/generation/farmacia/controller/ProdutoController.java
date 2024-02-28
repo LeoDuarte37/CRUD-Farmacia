@@ -66,7 +66,7 @@ public class ProdutoController {
 						.body(produtoRepository.save(produto));
 				
 			} else {
-				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Tema não existente!", null);
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Categoria não existente!", null);
 			}
 		}
 		
