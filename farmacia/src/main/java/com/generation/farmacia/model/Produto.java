@@ -35,8 +35,8 @@ public class Produto {
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
 	
-	@Builder.Default 
-	private boolean disponivel = true;
+	@NotBlank 
+	private String imagem;
 
 	public Long getId() {
 		return id;
@@ -58,16 +58,8 @@ public class Produto {
 		return valorUnitario;
 	}
 
-	public void setValorUnitario(double valorUnitario) {
+	public void setValorUnitario(Double valorUnitario) {
 		this.valorUnitario = valorUnitario;
-	}
-
-	public boolean isDisponivel() {
-		return disponivel;
-	}
-
-	public void setDisponivel(boolean disponivel) {
-		this.disponivel = disponivel;
 	}
 
 	public Categoria getCategoria() {
@@ -78,5 +70,12 @@ public class Produto {
 		this.categoria = categoria;
 	}
 	
+	public String getImagem() {
+		return imagem;
+	}
+	
+	public void setImagem(String imagem) {
+		this.imagem = imagem;
+	}
 	
 }
